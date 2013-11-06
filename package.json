@@ -1,0 +1,22 @@
+{
+    "name": "node-manta-demo",
+    "author": "Nate Fitch",
+    "description": "Manta Client Demo",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/nfitch/node-manta-demo.git"
+    },
+    "version": "0.0.1",
+    "main": "./lib/index.js",
+    "dependencies": {
+        "bunyan": "latest",
+        "manta": "latest"
+    },
+    "directories": {
+        "bin": "./bin",
+        "lib": "./lib"
+    },
+    "engines": {
+        "node": ">=0.8.14"
+    }
+}
